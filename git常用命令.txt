@@ -1,3 +1,4 @@
+git add --添加一个文件到本地库
 git checkout -b	fenzhi --创建并切换分支
 git checkout master --切换到master分支
 cat readme.text
