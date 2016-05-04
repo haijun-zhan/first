@@ -20,3 +20,4 @@ git log --查看日志
 在dev分支上做开发，就必须把远程的origin的dev分支到本地来，于是可以使用命令创建本地dev分支：git checkout –b dev origin/dev
 git pull把最新的提交从origin/dev抓下来
 git pull --rebase origin master--可以通过如下命令进行代码合并[注：pull=fetch+merge]
+git push origin --delete dev //删除服务器上dev的分支
