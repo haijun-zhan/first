@@ -1,0 +1,20 @@
+git checkout -b	fenzhi --创建并切换分支
+git checkout master --切换到master分支
+cat readme.text
+git add --添加文件到本地库
+git commit -m --提交到本地库
+git merge fenzhi1 --合并分支
+git status --查看状态
+git log --查看日志
+
+查看分支：git branch
+创建分支：git branch name
+切换分支：git checkout name
+创建+切换分支：git checkout –b name
+合并某分支到当前分支：git merge name
+删除分支：git branch –d name
+1. 要查看远程库的信息 使用 git remote
+2. 要查看远程库的详细信息 使用 git remote –v
+使用命令 git push origin master 推送到服务器
+在dev分支上做开发，就必须把远程的origin的dev分支到本地来，于是可以使用命令创建本地dev分支：git checkout –b dev origin/dev
+git pull把最新的提交从origin/dev抓下来
